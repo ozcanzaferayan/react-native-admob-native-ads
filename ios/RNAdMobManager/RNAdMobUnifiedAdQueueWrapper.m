@@ -12,9 +12,6 @@
 #import "EventEmitter.h"
 #import "CacheManager.h"
 @import GoogleMobileAds;
-#ifdef MEDIATION_FACEBOOK
-@import FacebookAdapter;
-#endif
 
 @implementation RNAdMobUnifiedAdQueueWrapper{
     GADAdLoader* adLoader;
