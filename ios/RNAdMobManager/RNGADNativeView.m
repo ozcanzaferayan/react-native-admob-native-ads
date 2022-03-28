@@ -460,7 +460,7 @@ BOOL *nonPersonalizedAds;
     isLoading = TRUE;
     self.adLoader = [[GADAdLoader alloc] initWithAdUnitID:adUnitId
                                        rootViewController:self.reactViewController
-                                                  adTypes:@[ GADAdLoaderAdTypeNative ]
+                                                  adTypes:@[kGADAdLoaderAdTypeNative ]
                                                   options:@[adMediaOptions,adPlacementOptions,adVideoOptions]];
 
 
