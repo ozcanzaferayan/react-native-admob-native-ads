@@ -312,17 +312,6 @@
 }
 
 -(void)configMediationOptions:(NSDictionary *)config{
-#ifdef MEDIATION_FACEBOOK
-        GADFBNetworkExtras * extras = [[GADFBNetworkExtras alloc] init];
-
-        if ([config valueForKey:@"nativeBanner"]) {
-            extras.nativeAdFormat = GADFBAdFormatNative;
-        } else {
-            extras.nativeAdFormat = GADFBAdFormatNativeBanner;
-        }
-
-        [adRequest registerAdNetworkExtras:extras];
-#endif
 
 }
 

@@ -83,18 +83,6 @@ BOOL *nonPersonalizedAds;
         /**
          The following code adds support for Native Banner for Facebook Mediation Ads.
          */
-#ifdef MEDIATION_FACEBOOK
-        GADFBNetworkExtras * extras = [[GADFBNetworkExtras alloc] init];
-
-        if ([[mediationOptions valueForKey:@"nativeBanner"] isEqual:[NSNumber numberWithBool:NO]]) {
-            extras.nativeAdFormat = GADFBAdFormatNative;
-        } else {
-            extras.nativeAdFormat = GADFBAdFormatNativeBanner;
-        }
-
-
-        [adRequest registerAdNetworkExtras:extras];
-#endif
     }
 
 }
