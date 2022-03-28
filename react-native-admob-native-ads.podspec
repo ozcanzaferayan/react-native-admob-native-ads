@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
   s.name                   = 'react-native-admob-native-ads'
   s.version                = version
   s.summary                = 'A simple and robust library for creating & displaying Admob Native Ads in your React Native App using Native Views!'
-  s.homepage               = 'https://github.com/ammarahm-ed/react-native-admob-native-ads'
+  s.homepage               = 'https://github.com/ozcanzaferayan/react-native-admob-native-ads'
   s.license                = package['license']
   s.author                 = 'Ammar Ahmed <ammarahmed6506@gmail.com>'
   s.platforms              = { :ios => '9.0', :tvos => '9.2' }
-  s.source                 = { :git => 'https://github.com/ammarahm-ed/react-native-admob-native-ads.git', :tag => "v#{version}" }
+  s.source                 = { :git => 'https://github.com/ozcanzaferayan/react-native-admob-native-ads.git', :tag => "v#{version}" }
   s.source_files           = 'ios/**/*.{h,m}'
 
   # We can't add the Google-Mobile-Ads-SDK as a dependency, as it would prevent
